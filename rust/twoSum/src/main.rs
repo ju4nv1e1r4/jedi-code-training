@@ -1,5 +1,5 @@
-mod two_sum;
-use two_sum::two_sum;
+mod solution;
+use solution::TwoSum;
 
 fn main() {
     let test_case_1 = vec![2, 7, 11, 15];
@@ -8,7 +8,7 @@ fn main() {
     let target_1 = 9;
     let target_2 = 6;
     let target_3 = 6;
-    println!("{:?}", two_sum(test_case_1, target_1));
-    println!("{:?}", two_sum(test_case_2, target_2));
-    println!("{:?}", two_sum(test_case_3, target_3));
+    println!("{:?}", TwoSum::two_sum(test_case_1, target_1));
+    println!("{:?}", TwoSum::two_sum(test_case_2, target_2));
+    println!("{:?}", TwoSum::two_sum(test_case_3, target_3));
 }
