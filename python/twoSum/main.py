@@ -1,4 +1,4 @@
-from .twoSum import Solution
+from twoSum import Solution
 
 solution = Solution()
 twoSum = solution.two_sum(nums=[2, 7, 11, 15], target=9)
