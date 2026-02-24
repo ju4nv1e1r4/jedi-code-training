@@ -1,0 +1,18 @@
+from longest_common_prefix import Solution
+
+s = Solution()
+print("DEBUG: v1 of longest_common_prefix")
+print("Case 1: ")
+print(s.longest_common_prefix(["flower", "flow", "flight"]))
+print("Case 2: ")
+print(s.longest_common_prefix(["dog", "racecar", "car"]))
+print("Case 3: ")
+print(s.longest_common_prefix(["ab", "a"]))
+print("--------------------------------------------------")
+print("DEBUG: v2 of longest_common_prefix")
+print("Case 1: ")
+print(s.longest_common_prefix_v2(["flower", "flow", "flight"]))
+print("Case 2: ")
+print(s.longest_common_prefix_v2(["dog", "racecar", "car"]))
+print("Case 3: ")
+print(s.longest_common_prefix_v2(["ab", "a"]))
